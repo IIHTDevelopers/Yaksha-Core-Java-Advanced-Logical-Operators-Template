@@ -1,0 +1,141 @@
+Java Bitwise Operators Assessment: AND, OR, XOR, NOT, Left Shift, Right Shift
+Overview:
+In this project, participants will demonstrate their understanding of Java Bitwise Operators. Bitwise operators allow you to perform operations directly on the binary representations of integers. The goal of this assessment is to familiarize participants with the different bitwise operators available in Java and how to use them in practice.
+
+The key operators that participants will work with are:
+
+AND (&)
+OR (|)
+XOR (^)
+NOT (~)
+Left Shift (<<)
+Right Shift (>>)
+These operators are fundamental for low-level programming tasks like data compression, encryption, and manipulating binary data. By completing this task, participants will gain hands-on experience working with bits and binary operations.
+
+Assessment Tasks
+1. Bitwise Operators:
+AND (&):
+
+The AND operator compares each corresponding bit of two operands. The result is 1 if both bits are 1, and 0 otherwise.
+
+OR (|):
+
+The OR operator compares each corresponding bit of two operands. The result is 1 if either of the bits is 1, and 0 if both are 0.
+
+XOR (^):
+
+The XOR operator compares each corresponding bit of two operands. The result is 1 if the bits are different, and 0 if they are the same.
+
+NOT (~):
+
+The NOT operator inverts the bits of the operand. Each 1 becomes 0 and each 0 becomes 1.
+
+Left Shift (<<):
+
+The Left Shift operator shifts the bits of an integer to the left by a specified number of positions. It adds 0 bits to the right.
+
+Right Shift (>>):
+
+The Right Shift operator shifts the bits of an integer to the right by a specified number of positions. It preserves the sign bit for negative numbers.
+
+
+Certainly! Below is a more detailed version of the Java Bitwise Operators Assessment documentation, with clear explanations for each of the tasks and the purpose of each operator.
+
+Java Bitwise Operators Assessment: AND, OR, XOR, NOT, Left Shift, Right Shift
+Overview:
+In this project, participants will demonstrate their understanding of Java Bitwise Operators. Bitwise operators allow you to perform operations directly on the binary representations of integers. The goal of this assessment is to familiarize participants with the different bitwise operators available in Java and how to use them in practice.
+
+The key operators that participants will work with are:
+
+AND (&)
+OR (|)
+XOR (^)
+NOT (~)
+Left Shift (<<)
+Right Shift (>>)
+These operators are fundamental for low-level programming tasks like data compression, encryption, and manipulating binary data. By completing this task, participants will gain hands-on experience working with bits and binary operations.
+
+Assessment Tasks
+1. Bitwise Operators:
+AND (&):
+
+The AND operator compares each corresponding bit of two operands. The result is 1 if both bits are 1, and 0 otherwise.
+Example:
+
+java
+Copy code
+int a = 5;  // Binary: 0101
+int b = 3;  // Binary: 0011
+int result = a & b;  // Result: 0001 (1 in decimal)
+OR (|):
+
+The OR operator compares each corresponding bit of two operands. The result is 1 if either of the bits is 1, and 0 if both are 0.
+Example:
+
+java
+Copy code
+int a = 5;  // Binary: 0101
+int b = 3;  // Binary: 0011
+int result = a | b;  // Result: 0111 (7 in decimal)
+XOR (^):
+
+The XOR operator compares each corresponding bit of two operands. The result is 1 if the bits are different, and 0 if they are the same.
+Example:
+
+java
+Copy code
+int a = 5;  // Binary: 0101
+int b = 3;  // Binary: 0011
+int result = a ^ b;  // Result: 0110 (6 in decimal)
+NOT (~):
+
+The NOT operator inverts the bits of the operand. Each 1 becomes 0 and each 0 becomes 1.
+Example:
+
+java
+Copy code
+int a = 5;  // Binary: 0101
+int result = ~a;  // Result: 1010 (in two's complement, this would be -6 in decimal)
+Left Shift (<<):
+
+The Left Shift operator shifts the bits of an integer to the left by a specified number of positions. It adds 0 bits to the right.
+Example:
+
+java
+Copy code
+int a = 5;  // Binary: 0101
+int result = a << 2;  // Result: 10100 (20 in decimal)
+Right Shift (>>):
+
+The Right Shift operator shifts the bits of an integer to the right by a specified number of positions. It preserves the sign bit for negative numbers.
+Example:
+
+java
+Copy code
+int a = 5;  // Binary: 0101
+int result = a >> 1;  // Result: 0010 (2 in decimal)
+Implementation Instructions
+You will complete a program that demonstrates the use of these bitwise operators in different scenarios. Below are the specific instructions and tasks for you to implement.
+
+Task 1: Declare Two Integer Variables:
+Declare two integer variables, a and b. These variables will be used to perform bitwise operations.
+
+Task 2: Perform Bitwise Operations:
+Apply the following bitwise operators to the variables a and b:
+
+AND (&): Perform a bitwise AND operation between a and b.
+OR (|): Perform a bitwise OR operation between a and b.
+XOR (^): Perform a bitwise XOR operation between a and b.
+NOT (~): Perform a bitwise NOT operation on a.
+Left Shift (<<): Perform a left shift on a by 2 positions.
+Right Shift (>>): Perform a right shift on a by 1 position.
+Print the Results: Output the result of each operation.
+
+Task 3: Use Bitwise Operators in a Combination:
+Combine bitwise operators to create more complex expressions:
+Shift a number and then apply AND or OR to the result.
+Negate a number and apply other bitwise operations.
+Example:
+Shift x to the left by 1 position and then apply an AND operation with y.
+Negate x and print the result.
+
